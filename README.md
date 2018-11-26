@@ -6,6 +6,7 @@ This study will aim to examine the correlation between Twitter sentiment and Bit
 
 Dependencies:
 
+- Python version 3.7
 - import re
 - import pandas as pd 
 - import numpy as np 
