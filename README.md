@@ -6,19 +6,21 @@ This study will aim to examine the correlation between Twitter sentiment and Bit
 
 Dependencies:
 
-import re
-import pandas as pd 
-import numpy as np 
-import matplotlib.pyplot as plt 
-import seaborn as sns
-import string
-import nltk 
-import warnings 
-import pandas as pd
-from nltk.stem.porter import *
-from textblob import TextBlob, Word, Blobber
-from textblob.classifiers import NaiveBayesClassifier
-from textblob.taggers import NLTKTagger
+- import re
+- import pandas as pd 
+- import numpy as np 
+- import matplotlib.pyplot as plt 
+- import seaborn as sns
+- import string
+- import nltk 
+- import warnings 
+- import pandas as pd
+- from nltk.stem.porter import *
+- from textblob import TextBlob, Word, Blobber
+- from textblob.classifiers import NaiveBayesClassifier
+- from textblob.taggers import NLTKTagger
+
+- User must have a Plot.ly API
 
 Acknowledgements: 
 Ideas from https://www.analyticsvidhya.com were used for the tweet cleaning process. 
